@@ -34,11 +34,14 @@ html, body {
 
 .bg-img img{
     width: 100%;
-    position: absolute;
+    height: auto;
+    position: fixed;
     z-index: -1;
     background-position: top center;
     background-position: cover;
     background-size: cover;
+    top: -20px;
+    left: 0;
 
 }
 
@@ -52,7 +55,7 @@ body{
 
 nav{
     margin: 0 24px;
-    width: ;
+    width: 100;
     padding: 20px;
     display: flex;
     justify-content: space-around;
